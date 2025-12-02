@@ -18,6 +18,7 @@ export default defineConfig({
     },
   },
   envDir: path.resolve(import.meta.dirname),
+  // CORREÇÃO: Define a pasta 'client' como a raiz do frontend
   root: path.resolve(import.meta.dirname, "client"),
   publicDir: path.resolve(import.meta.dirname, "client/public"),
   base: '/',
